@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tttBoard {
+  display: flex;
+  width: 360px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.box:hover {
+  background: rgb(253, 244, 244)
+}
+
+#match {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#head {
+  font-size: 40px;
+  padding: 25px;
+  color: green;
+  font-weight: bolder;
+}
+
+#messages {
+  padding: 25px;
+}
+
+#winner {
+  font-size: 40px;
+  padding: 25px;
+  color:red;
+  font-weight: bolder;
+}
+
+#nowinner {
+  font-size: 40px;
+  padding: 25px;
+  color: red;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/

@@ -1,0 +1,52 @@
+{
+  "matchId": "5a5c6f9b4d749d008e07e695", //string, identifies the current match, required
+  "boardState": [
+    "x", "-", "-", // first row of the game board, positions 0, 1, 2
+    "-", "o", "o", // second row of the game board, positions 3, 4, 5
+    "-", "-", "x" // third row of the game board, positions 6, 7, 8
+  ], // array of chars ( one of ['o','x','-']), required
+  "nextMove": {
+    "char": "o", // char one of ['o','x'], required
+    "position": 4 // number from 0 to 8, required 
+  }, // object, represents the next move of the player, required only on input
+  "lastMove": [
+    {
+      "char": "x",
+      "position": 0
+    }
+  ], // array of move objects, optional
+  "historyBoardState": [
+      {
+          "move1": ["-", "-", "-", "-", "-", "-", "-", "-", "x"],
+          "move2": ["-", "-", "-", "-", "o", "-", "-", "-", "x"],
+          "move3": ["x", "-", "-", "-", "o", "-", "-", "-", "x"],
+          "move4": ["x", "-", "-", "-", "o", "o", "-", "-", "x"]
+
+      }
+    ]
+      
+}
+
+
+{
+  "matchID": [12], 
+  "boardState": ["x", "-", "-","-", "o", "o", "-", "-", "x"], 
+  "nextMove": {
+    "char": "o", 
+    "position": 4 
+  }, 
+  "lastMove": [
+    {
+      "char": "x",
+      "position": 0
+    }
+  ], 
+    "historyBoardState": [
+      {
+          "move1": ["-", "-", "-", "-", "-", "-", "-", "-", "x"],
+          "move2": ["-", "-", "-", "-", "o", "-", "-", "-", "x"],
+          "move3": ["x", "-", "-", "-", "o", "-", "-", "-", "x"],
+          "move4": ["x", "-", "-", "-", "o", "o", "-", "-", "x"]
+      }
+    ]
+}

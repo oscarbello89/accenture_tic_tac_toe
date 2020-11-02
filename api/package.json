@@ -1,0 +1,32 @@
+{
+  "name": "accenture_tic_tac_toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/tttIndex.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarbello89/accenture_tic_tac_toe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarbello89/accenture_tic_tac_toe/issues"
+  },
+  "homepage": "https://github.com/oscarbello89/accenture_tic_tac_toe#readme",
+  "dependencies": {
+    "ajv": "^7.0.0-beta.2",
+    "ajv-errors": "^1.0.1",
+    "fastify": "^3.7.0",
+    "fastify-cors": "^4.1.0",
+    "mangosta": "^1.0.1",
+    "mongoose": "^5.10.11",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
+    "payload-validator": "^1.0.4"
+  }
+}
